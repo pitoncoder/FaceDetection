@@ -9,7 +9,8 @@ cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 counter = 0
-
+    
+    
 reference_img = cv2.imread("reference.jpg")  # use your own image here
 
 face_match = False
